@@ -2,7 +2,7 @@
 <h4>Sign Up Form</h4>
 
 
-<form action="{ { route ('get-welcome') } }" method="" id="form1">
+<form action="{{ route ('get-welcome') }}" method="" id="form1">
     <label>First name:</label>
     <br><br>
     <input type="text" name="First_name" value="">
